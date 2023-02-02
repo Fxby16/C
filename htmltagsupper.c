@@ -8,7 +8,6 @@ FILE *file;
 FILE *copy;
 char data[MAX_LEN];
 int i;
-int j;
 bool flag=0;
 bool flag2=0;
 char name[100];
