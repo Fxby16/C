@@ -19,10 +19,7 @@ char copyy[100];
       scanf("%100s",copyy);
       fflush(stdin);
       file=fopen(name,"r");
-      copy=fopen(copyy,"a");     
-
-    puts(name);
-    puts(copyy);
+      copy=fopen(copyy,"a");    
 
     if(file==NULL)
     {
